@@ -25,7 +25,7 @@ public class DeleteCollisions : MonoBehaviour
             gameManager.AddLives(-1);
             Destroy(gameObject);
         }
-        else if (other.CompareTag("Animal"))
+        else if (other.CompareTag("Food"))
         {
             gameManager.AddScore(5);
             Destroy(gameObject);
