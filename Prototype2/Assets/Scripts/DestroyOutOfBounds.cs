@@ -22,6 +22,7 @@ public class DestroyOutOfBounds : MonoBehaviour
         // If the object goes out of bounds, destroy it
         if (transform.position.z > topBound)
         {
+            // Removes the GameObject
             Destroy(gameObject);
         } 
         else if (transform.position.z < lowerBound)
